@@ -67,7 +67,7 @@ ul {
 
 li {
     float: left;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 80px;
     margin-top: 24px;
 }
@@ -75,7 +75,7 @@ li {
 .nav-menu2 {
     display: flex;
     justify-content: end;
-    padding-left: 400px;
+    padding-left: 460px;
 }
 
 
