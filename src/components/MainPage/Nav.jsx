@@ -33,14 +33,12 @@ export default Nav;
 
 const NavComponent = styled.div`
 
+
+
 .nav-menu1 {
     display: flex;
     justify-content: start;
-
-    height: 100px;
     background-color: #fff;
-
-    top: fixed;
 
 }
 
@@ -62,7 +60,7 @@ const NavComponent = styled.div`
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 li {
