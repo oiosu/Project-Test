@@ -1,3 +1,7 @@
+body {
+  font-family: "Cafe24Ssurround";
+}
+
 .App {
   text-align: center;
 }
@@ -12,6 +16,41 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* 잘풀리는 오늘 */
+@font-face {
+  font-family: 'Jal_Onuel';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Jal_Onuel.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 세종병원 */
+@font-face {
+  font-family: 'SejonghospitalBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/SejonghospitalBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 카페24 써라운드 */
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* Gmarket Sans */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .App-header {
   background-color: #282c34;
