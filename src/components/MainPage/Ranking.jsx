@@ -35,7 +35,7 @@ const BestRanking = styled.div`
 
 .item-background {
     margin-top: 80px;
-    background-color: #F1F1F1;
+    background-color: #A9EF72;
     width: 100%;
     height: 800px;
     margin-bottom: 80px;

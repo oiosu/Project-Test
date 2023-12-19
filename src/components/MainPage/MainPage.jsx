@@ -3,6 +3,7 @@ import Banner from './Banner';
 import CategoryList from './CategoryList';
 import BestSale from './BestSale';
 import Ranking from './Ranking';
+import Use from './Use';
 
 
 const MainPage = () => {
@@ -12,7 +13,7 @@ const MainPage = () => {
             <CategoryList />
             <BestSale />
             <Ranking />
-
+            <Use />
         </>
     );
 };
