@@ -2,31 +2,31 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Ranking = () => {
-    return (
-        <>
-            <BestRanking>
-                <div className='item-background'>
-                    <h1 className='best-title'>베스트 랭킹</h1>
-                    <h3 className='best-content'>내일의 집 제품 추천</h3>
-                    <div className='ranking-img'>
-                        <ul className='best01-item'>
-                            <li className='item00'>
-                                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
-                            </li>
-                            <li className='item00'>
-                                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/170213525868761761.jpg?w=360&h=360&c=c&q=50' alt='02' />
-                            </li>
-                            <li className='item00'>
-                                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168774136219290693.jpg?w=360&h=360&c=c&q=50' alt='03' />
-                            </li>
-                        </ul>
-                    </div>
+  return (
+    <>
+      <BestRanking>
+        <div className='item-background'>
+          <h1 className='best-title'>베스트 랭킹</h1>
+          <h3 className='best-content'>내일의 집 제품 추천</h3>
+          <div className='ranking-img'>
+            <ul className='best01-item'>
+              <li className='item00'>
+                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+              </li>
+              <li className='item00'>
+                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/170213525868761761.jpg?w=360&h=360&c=c&q=50' alt='02' />
+              </li>
+              <li className='item00'>
+                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168774136219290693.jpg?w=360&h=360&c=c&q=50' alt='03' />
+              </li>
+            </ul>
+          </div>
 
-                </div>
-            </BestRanking>
-        </>
+        </div>
+      </BestRanking>
+    </>
 
-    );
+  );
 };
 
 export default Ranking;
@@ -35,7 +35,7 @@ const BestRanking = styled.div`
 
 .item-background {
     margin-top: 80px;
-    background-color: #cccccc;
+    background-color: #F1F1F1;
     width: 100%;
     height: 800px;
     margin-bottom: 80px;
