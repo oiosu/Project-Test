@@ -110,6 +110,7 @@ const CategoryHere = styled.div`
 .nav{
     display: flex;
     justify-content: center;
+    margin-top: 35px;
 }
 ul {
     list-style:none;

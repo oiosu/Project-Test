@@ -39,6 +39,7 @@ const NavComponent = styled.div`
     display: flex;
     justify-content: start;
     background-color: #fff;
+    margin-bottom: 10px;
 
 }
 
