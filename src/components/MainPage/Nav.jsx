@@ -23,8 +23,8 @@ const Nav = () => {
         </ul>
         <div className='nav-menu2'>
           <ul>
-            <li>
-              <button onClick={navigateEmpty}>장바구니</button>
+            <li onClick={navigateEmpty}>
+              장바구니
             </li>
             <li>로그인</li>
             <li>회원가입</li>
