@@ -10,11 +10,15 @@ const Nav = () => {
     navigate("/empty");
   };
 
+  const navigateMainPage = () => {
+    navigate("/")
+  };
+
   return (
     <NavComponent>
       <div className='nav-menu1'>
         <div className='logo'>
-          <span>내일의 집</span>
+          <span onClick={navigateMainPage}>내일의 집</span>
         </div>
         <ul className='menu-text'>
           <li>커뮤니티</li>
