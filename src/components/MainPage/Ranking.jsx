@@ -6,23 +6,23 @@ const Ranking = () => {
     <>
       <BestRanking>
         <div className='item-background'>
-          <h1 className='best-title'>베스트 랭킹</h1>
-          <h3 className='best-content'>내일의 집 제품 추천</h3>
-          <div className='ranking-img'>
-            <ul className='best01-item'>
-              <li className='item00'>
-                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
-              </li>
-              <li className='item00'>
-                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/170213525868761761.jpg?w=360&h=360&c=c&q=50' alt='02' />
-              </li>
-              <li className='item00'>
-                <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/168774136219290693.jpg?w=360&h=360&c=c&q=50' alt='03' />
-              </li>
-            </ul>
+          <div>
+            <h1 className='best-title'>베스트 랭킹</h1>
+            <h3 className='best-content'>내일의 집 제품 추천</h3>
           </div>
-
+          <div className='ranking-img'>
+            <div className='ranking-one'>
+              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+            </div>
+            <div className='ranking-one'>
+              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+            </div>
+            <div className='ranking-one'>
+              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+            </div>
+          </div>
         </div>
+
       </BestRanking>
     </>
 
@@ -37,7 +37,7 @@ const BestRanking = styled.div`
     margin-top: 80px;
     background-color: #A9EF72;
     width: 100%;
-    height: 800px;
+    height: 660px;
     margin-bottom: 80px;
   }
 
@@ -47,6 +47,7 @@ const BestRanking = styled.div`
     font-weight: bold;
     margin-left: 140px;
     margin-top: 50px;
+
   }
 
   .best-content {
@@ -55,27 +56,25 @@ const BestRanking = styled.div`
     margin-left: -205px;
   }
 
-  .ranking-img {
+  .ranking-img{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    padding-right: 190px;
+
   }
 
-  ul {
-    list-style: none;
-  }
-
-  li {
-    float: left;
-    position: relative;
+  .ranking-one {
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: -200px;
   }
 
   img {
     border-radius: 10px;
-    width: 440px;
-    margin-top: 180px;
-    margin-right: 200px;
-    margin-left: -140px;
+    margin-left: -10px;
+
   }
 
 

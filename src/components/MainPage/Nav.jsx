@@ -1,81 +1,82 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useNavigate } from "react-router-dom";
+
 
 const Nav = () => {
-    return (
-        <NavComponent>
-            <div className='nav-menu1'>
-                <div className='logo'>
-                    <span>
-                        내일의 집
-                    </span>
-                </div>
-                <ul className='meue-text'>
-                    <li>커뮤니티</li>
-                    <li>쇼핑</li>
-                    <li>베스트샵</li>
-                </ul>
-                <div className='nav-menu2'>
-                    <ul>
-                        <li>장바구니</li>
-                        <li>로그인</li>
-                        <li>회원가입</li>
-                        <li>고객센터</li>
-                    </ul>
-                </div>
-            </div>
-        </NavComponent>
+  const navigate = useNavigate();
 
-    );
+  const navigateEmpty = () => {
+    navigate("/empty");
+  };
+
+  return (
+    <NavComponent>
+      <div className='nav-menu1'>
+        <div className='logo'>
+          <span>내일의 집</span>
+        </div>
+        <ul className='menu-text'>
+          <li>커뮤니티</li>
+          <li>쇼핑</li>
+          <li>베스트샵</li>
+        </ul>
+        <div className='nav-menu2'>
+          <ul>
+            <li>
+              <button onClick={navigateEmpty}>장바구니</button>
+            </li>
+            <li>로그인</li>
+            <li>회원가입</li>
+            <li>고객센터</li>
+          </ul>
+        </div>
+      </div>
+    </NavComponent>
+  );
 };
 
 export default Nav;
 
 const NavComponent = styled.div`
-
-
-
-.nav-menu1 {
+  .nav-menu1 {
     display: flex;
     justify-content: start;
     background-color: #fff;
     margin-bottom: 10px;
+  }
 
-}
-
-
-.logo {
+  .logo {
     background-color: #6EB636;
     width: 200px;
     height: 50px;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
 
     margin-top: 20px;
     margin-left: 50px;
 
     padding-top: 10px;
-}
+  }
 
-ul {
+  ul {
     list-style: none;
-}
+  }
 
-li {
+  li {
     float: left;
-    font-size: 22px;
-    margin-left: 80px;
+    font-size: 15px;
+    margin-left: 60px;
     margin-top: 24px;
-}
+    font-weight: bold;
+  }
 
-.nav-menu2 {
+  .nav-menu2 {
     display: flex;
     justify-content: end;
-    padding-left: 460px;
-}
-
-
+    padding-left: 360px;
+  }
 `;

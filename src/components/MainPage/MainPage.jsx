@@ -4,6 +4,7 @@ import CategoryList from './CategoryList';
 import BestSale from './BestSale';
 import Ranking from './Ranking';
 import Use from './Use';
+import AdSection from './AdSection';
 
 
 const MainPage = () => {
@@ -13,6 +14,7 @@ const MainPage = () => {
             <CategoryList />
             <BestSale />
             <Ranking />
+            <AdSection />
             <Use />
         </>
     );

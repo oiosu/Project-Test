@@ -5,7 +5,7 @@ const BestSale = () => {
     return (
         <SaleSection>
             <header className='new-title'>
-                <h1>오늘의 베스트 상품</h1>
+                <h2>오늘의 베스트 상품</h2>
                 {/* <p>더보기</p> */}
             </header>
             <div className='bigsale-item'>
@@ -75,9 +75,8 @@ const SaleSection = styled.div`
     justify-content: space-between;
     margin-left: 130px;
     margin-right: 120px;
-    margin-top: 90px;
+    margin-top: 70px;
 }
-
 
 
 .bigsale-item {
@@ -87,11 +86,13 @@ const SaleSection = styled.div`
 }
 
 .item-img {
-    margin-right: 40px;
-    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 img {
+    width: 280px;
+
     border-radius: 10px;
 }
 
@@ -103,12 +104,17 @@ li {
     float: left;
 }
 
+.item-title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .item-rate{
     font-size: 20px;
     color: #6EB636;
     font-weight: bold;
     float: left;
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
 .item-price {
@@ -127,20 +133,20 @@ li {
     margin-right: 20px;
     background-color: #D9D9D9;
     border-radius: 10px;
-    padding: 8px;
+    padding: 5px;
     color: #413F3F;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
 }
 
 .big-btn {
     background-color: #FF9E9E;
     border-radius: 10px;
-    padding: 8px;
+    padding: 5px;
     color: #413F3F;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
 }
 

@@ -111,22 +111,25 @@ const CategoryHere = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 35px;
+
 }
 ul {
+    padding-left:30px;
+    padding-right:30px;
     list-style:none;
 }
 
 li {
-    font-size: 18px;
+    font-size: 14px;
     float: left;
+    font-weight: bold;
 }
 
 img{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     border-radius: 30%;
 }
-
 
 
 `;
