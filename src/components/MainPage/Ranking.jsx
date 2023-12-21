@@ -12,12 +12,15 @@ const Ranking = () => {
           </div>
           <div className='ranking-img'>
             <div className='ranking-one'>
+              <p>1</p>
               <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
             </div>
             <div className='ranking-one'>
+              <p>2</p>
               <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
             </div>
             <div className='ranking-one'>
+              <p>3</p>
               <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
             </div>
           </div>
@@ -61,7 +64,7 @@ const BestRanking = styled.div`
     flex-flow: row nowrap;
     justify-content: space-between;
     padding-right: 190px;
-
+    position: relative;
   }
 
   .ranking-one {
@@ -77,6 +80,18 @@ const BestRanking = styled.div`
 
   }
 
+  p {
+    position: absolute;
+    margin-left: 10px;
+    background-color: #fff;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+
+    border-radius: 50px;
+    font-weight: bold;
+  }
 
 
 `;
