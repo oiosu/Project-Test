@@ -9,7 +9,12 @@ const Use = () => {
                 <div className='use-header'>
                     <p className='use-title'>내일의 집 이용안내</p>
                 </div>
-
+                <div className='use-box'>
+                    <div className='box'></div>
+                    <div className='box'></div>
+                    <div className='box'></div>
+                    <div className='box'></div>
+                </div>
             </div>
         </UseInfo>
     );
@@ -37,6 +42,19 @@ const UseInfo = styled.div`
     margin-bottom: 30px;
     color: #fff;
     font-weight: bold;
+}
+
+.use-box {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 240px;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #fff;
 }
 
 
