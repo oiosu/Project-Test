@@ -10,10 +10,20 @@ const Use = () => {
                     <p className='use-title'>내일의 집 이용안내</p>
                 </div>
                 <div className='use-box'>
-                    <div className='box'></div>
-                    <div className='box'></div>
-                    <div className='box'></div>
-                    <div className='box'></div>
+                    <div className='box'>
+                        <span className='box-text'>매장찾기</span>
+                    </div>
+                    <div className='box'>
+                        <span className='box-text'>고객의 소리</span>
+                    </div>
+                </div>
+                <div className='use-box'>
+                    <div className='box'>
+                        <span className='box-text'>제품 교환 안내</span>
+                    </div>
+                    <div className='box'>
+                        <span className='box-text'>고객 서비스 블로그</span>
+                    </div>
                 </div>
             </div>
         </UseInfo>
@@ -27,17 +37,21 @@ const UseInfo = styled.div`
 .use-section {
     background-color: #A9EF72;
     width: 100%;
-    height: 700px;
+    height: 630px;
     margin-bottom: 150px;
     margin-top: 150px;
  
+}
+
+p {
+    margin-left: 100px;
 }
 
 .use-title {
     font-size: 42px;
     font-weight: 700;
     float: left;
-    margin-left: 130px;
+
     margin-top: 80px;
     margin-bottom: 30px;
     color: #fff;
@@ -47,14 +61,27 @@ const UseInfo = styled.div`
 .use-box {
     display: flex;
     justify-content: center;
+    float: left;
 }
 
 .box {
-    margin-top: 240px;
-    width: 800px;
-    height: 300px;
+    margin-top: 30px;
+    width: 600px;
+    height: 150px;
     border-radius: 20px;
     background-color: #fff;
+    margin-right: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.box-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+    float: right;
+    margin-right: 40px;
 }
 
 
