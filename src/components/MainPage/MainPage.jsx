@@ -3,8 +3,9 @@ import Banner from './Banner';
 import CategoryList from './CategoryList';
 import BestSale from './BestSale';
 import Ranking from './Ranking';
+import GiftItem from './GiftItem';
 import Use from './Use';
-import AdSection from './AdSection';
+
 
 
 const MainPage = () => {
@@ -14,7 +15,7 @@ const MainPage = () => {
             <CategoryList />
             <BestSale />
             <Ranking />
-            <AdSection />
+            <GiftItem />
             <Use />
         </>
     );
