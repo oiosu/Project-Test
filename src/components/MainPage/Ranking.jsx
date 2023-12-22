@@ -46,9 +46,9 @@ const BestRanking = styled.div`
 
   .best-title {
     float: left;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-top: 50px;
 
   }
@@ -56,14 +56,14 @@ const BestRanking = styled.div`
   .best-content {
     float: left;
     margin-top: 120px;
-    margin-left: -205px;
+    margin-left: -185px;
   }
 
   .ranking-img{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    padding-right: 190px;
+    padding-right: 160px;
     position: relative;
   }
 
@@ -71,7 +71,7 @@ const BestRanking = styled.div`
     width: 300px;
     height: 300px;
     margin-top: 200px;
-    margin-left: -200px;
+    margin-left: -180px;
   }
 
   img {
