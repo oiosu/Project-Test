@@ -122,7 +122,7 @@ p {
     height: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-right: 30px;
+    margin-right: 50px;
     z-index: -1;
 }
 
@@ -150,7 +150,8 @@ p {
     border-radius: 30px;
     margin-top: 40px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
+    font-weight: bold;
 }
 
 .user-text {
@@ -159,9 +160,9 @@ p {
     width: 180px;
     height: 80px;
     border-radius: 30px; 
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 8px;
     padding-right: 8px;
     margin-right: 40px;
