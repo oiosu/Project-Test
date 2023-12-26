@@ -43,13 +43,13 @@ const FooterSection = styled.div`
     justify-content: space-between;
     background-color: #F1F1F1;
     widht: 100%;
-    height: 260px;
+    height: 300px;
     padding-left: 290px;
     padding-right: 290px;
 }
 
 .info-01 {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .tel-number {
@@ -78,7 +78,7 @@ const FooterSection = styled.div`
 
 
 .info-02 {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .kakao {
@@ -107,7 +107,7 @@ const FooterSection = styled.div`
 }
 
 .share {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .info-03 {

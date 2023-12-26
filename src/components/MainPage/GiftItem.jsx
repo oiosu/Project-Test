@@ -25,12 +25,24 @@ const GiftItem = () => {
                 <div className='about-user'>
                     <div className='user-1'>
                         <div className='user-center'>
-                            <div className='user-face'></div>
+                            <div>
+                                <div className='user-face'></div>
+                            </div>
+                            <div className='user'>
+                                <div className='user-name'>서울에 사는 김00님</div>
+                                <div className='user-text'>내일의 집을 이용한 후기후기후기후기후기후기</div>
+                            </div>
                         </div>
                     </div>
                     <div className='user-1'>
                         <div className='user-center'>
-                            <div className='user-face'></div>
+                            <div>
+                                <div className='user-face'></div>
+                            </div>
+                            <div className='user'>
+                                <div className='user-name'>서울에 사는 김00님</div>
+                                <div className='user-text'>내일의 집을 이용한 후기후기후기후기후기후기</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,21 +118,55 @@ p {
 .user-1 {
     position: relative;
     background-color: #D9D9D9;
-    width: 600px;
+    width: 550px;
     height: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-right: 30px;
     z-index: -1;
 }
 
 .user-center {
     display: flex;
-    jus
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .user-face {
-    background-color: black;
-    width: 200px;
-    height: 30px;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/d8f932183398029.653f7910a4099.jpg');
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 30px;
 }
+
+.user-name {
+    background-color: #fff;
+    color: #000;
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.user-text {
+    background-color: #fff;
+    color: #000;
+    width: 180px;
+    height: 80px;
+    border-radius: 30px; 
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 40px;
+}
+
+
+
 `;
