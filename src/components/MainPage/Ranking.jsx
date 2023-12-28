@@ -35,49 +35,42 @@ const Ranking = () => {
 export default Ranking;
 
 const BestRanking = styled.div`
-
-.item-background {
+  .item-background {
     margin-top: 80px;
     background-color: #A9EF72;
     width: 100%;
-    height: 660px;
+    height: 530px;
     margin-bottom: 80px;
   }
 
   .best-title {
-    float: left;
     font-size: 35px;
     font-weight: bold;
     margin-left: 120px;
-    margin-top: 50px;
-
+    padding-top: 30px;
   }
 
   .best-content {
-    float: left;
-    margin-top: 120px;
-    margin-left: -185px;
+    margin-top: 0px;
+    margin-left: 120px;
   }
 
-  .ranking-img{
+  .ranking-img {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    padding-right: 160px;
-    position: relative;
+    flex-flow: row wrap; 
+    justify-content: center; 
+    padding-right: 0px; 
   }
 
   .ranking-one {
     width: 300px;
     height: 300px;
-    margin-top: 200px;
-    margin-left: -180px;
+    margin: 20px; 
   }
 
   img {
     border-radius: 10px;
-    margin-left: -10px;
-
+    width: 100%; 
   }
 
   p {
@@ -91,6 +84,51 @@ const BestRanking = styled.div`
 
     border-radius: 50px;
     font-weight: bold;
+  }
+
+  /* 모바일 반응형 */
+  @media (max-width: 768px) {
+
+    .item-background {
+      height: 600px;
+
+    }
+    .best-title {
+      margin-left: 20px;
+      text-align: center;
+    }
+
+    .best-content {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .ranking-img {
+      padding-right: 20px;
+      width: 350px;
+      display: flex;
+      justify-content: center;
+      margin-top: -30px;
+      margin-left: 215px;
+      position: relative;
+    }
+
+    .ranking-one {
+      width: 100%;
+      margin: 10px 0;
+      display: none;
+      margin-top: 70px;
+    }
+
+    .ranking-one:first-child {
+    display: block; 
+  }
+
+    p {
+      display: none;
+      position: static;
+      margin-top: 10px;
+    }
   }
 
 

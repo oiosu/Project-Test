@@ -150,4 +150,30 @@ li {
     border: none;
 }
 
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    .new-title {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .item-img {
+      padding: 0 20px; 
+      margin-left: 20px;
+      margin-top: 20px;
+
+    .item-rate {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .item-price {
+      margin-right: 0;
+    }
+    .item-btn{
+        margin-left: -2px;
+        margin-bottom: 10px;
+    }
+  }
+
 `;

@@ -96,4 +96,28 @@ const NavComponent = styled.div`
     background-image: linear-gradient(transparent 60%, #6EB636 40%);
     background-size: 100% 100%;
   }
+
+  /* 모바일 화면에 대한 스타일링 */
+  @media (max-width: 768px) {
+    .nav-menu1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .logo {
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+
+    .menu-text {
+      margin-bottom: 10px;
+      margin-right: 100px;
+    }
+
+    .nav-menu2 {
+      padding-left: 0;
+      margin-right: 100px;
+    }
+  }
 `;

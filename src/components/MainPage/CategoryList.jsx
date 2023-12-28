@@ -88,14 +88,14 @@ const CategoryList = () => {
                         </div>
                     </li>
                     {/* list_10 */}
-                    <li className='li-list'>
+                    {/* <li className='li-list'>
                         <figure>
                             <img src="https://image.ohou.se/image/resize/bucketplace-v2-development/uploads-shortcut-store_home_shortcut_sets-170078700204485935.png/512/none" alt="10" />
                         </figure>
                         <div className='li-text'>
                             <span>특가/혜택</span>
                         </div>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
 
@@ -107,36 +107,54 @@ export default CategoryList;
 
 const CategoryHere = styled.div`
 
-.nav{
+.nav {
     display: flex;
     justify-content: center;
     margin-top: 35px;
+  }
 
-}
-ul {
-    padding-left:30px;
-    padding-right:30px;
-    list-style:none;
-}
+  ul {
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* 여러 줄에 걸쳐 나타날 수 있도록 설정 */
+    justify-content: center; /* 가운데 정렬 */
+  }
 
-li {
+  li {
     font-size: 14px;
-    float: left;
     font-weight: bold;
-}
+    margin: 10px; /* 각 항목 간격 설정 */
+  }
 
-img{
+  img {
     width: 50px;
     height: 50px;
     border-radius: 30%;
-}
-img:hover{
+  }
+
+  img:hover {
     transform: translateY(-10px);
-}
+  }
 
-.li-text {
+  .li-text {
     text-align: center;
-}
+  }
 
+  /* 모바일 반응형 */
+  @media (max-width: 768px) {
+    .nav {
+      margin-top: 20px;
+    }
 
+    li {
+      font-size: 12px;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 `;

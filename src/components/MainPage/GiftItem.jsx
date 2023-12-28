@@ -167,7 +167,50 @@ p {
     padding-right: 8px;
     margin-right: 40px;
 }
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    .gift-title {
+      float: none; 
+      margin-left: 5%; 
+    }
 
+    .title-1 {
+      margin-top: 10px;
+      margin-left: 55px; 
+    }
+
+    .title-2 {
+      margin-top: 5px;
+      margin-left: 55px; 
+    }
+
+    img {
+      margin-top: 20px; 
+      margin-left: 0;
+      width: 600px;
+      margin-left: 85px; 
+
+    }
+
+    .img-content {
+      width: 580px;
+      height: 120px;
+      margin-left: 85px; 
+      padding: 10px; 
+      margin-bottom: 330px;
+    }
+
+    .about-user {
+      float: none; 
+      margin-top: -350px; 
+      margin-right: 5%;
+
+    }
+
+    .user-1 {
+        display: none;
+    }
+  }
 
 
 `;

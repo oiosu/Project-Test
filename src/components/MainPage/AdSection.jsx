@@ -9,16 +9,16 @@ const AdSection = () => {
             </div>
             <div className='balloon'>
                 <div className='balloon_1'>
-                    내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점
+                    <p className='ballonn-text'>내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점</p>
                 </div>
                 <div className='balloon_2'>
-                    내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점
+                    <p className='ballonn-text'>내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점</p>
                 </div>
                 <div className='balloon_3'>
-                    내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점
+                    <p className='ballonn-text'>내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점</p>
                 </div>
                 <div className='balloon_4'>
-                    내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점
+                    <p className='ballonn-text'>내일의 집의 장점 장점 장점 장점 장점 장점 장점 장점</p>
                 </div>
             </div>
 
@@ -181,5 +181,26 @@ img  {
 	margin-top: -13px;
 	margin-right: -13px;
 }
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    img {
+      display: none;
+    }
+
+    .balloon {
+        margin-top: 1100px;
+    }
+    .balloon_1, .balloon_2, .balloon_3, .balloon_4{
+        width: 600px;
+        height: 50px;
+        margin-left: -100px;
+    }
+    .ballonn-text {
+        font-size: 19px;
+        margin-top: -10px;
+    }
+  }
+
 
 `;

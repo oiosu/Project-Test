@@ -140,5 +140,55 @@ const FooterSection = styled.div`
     margin-left: 20px;
 }
 
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    .footer-inner {
+      padding: 10px;
+      height: 230px;
+      margin-top: -45px;
+    }
+
+    .info-01,
+    .info-02,
+    .share {
+      flex: 1 100%; 
+    }
+
+    .time-info01,
+    .time-info02,
+    .time-info03,
+    .kakao,
+    .email,
+    .info-03 {
+      margin: 10px;
+    }
+
+    .kakao {
+       margin-right: 55,5px;
+       font-size: 14px;
+       text-align: center;
+    }
+    .email {
+       margin-right: 55,5px;
+       font-size: 14px;
+
+    }
+    .info-01 {
+        display: none;
+    }
+
+    .info-03 {
+        display: none;
+    }
+
+    .share{
+        margin-top: 90px;
+        margin-left: 20px;
+        margin-right: -180px;
+    }
+  }
+
+
+
 
 `;

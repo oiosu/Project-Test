@@ -75,4 +75,19 @@ img {
     border-radius: 50%;
 
 }
+/* 모바일 화면에 대한 스타일링 */
+@media (max-width: 768px) {
+    img {
+        widht: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+    }
+  }
 `;

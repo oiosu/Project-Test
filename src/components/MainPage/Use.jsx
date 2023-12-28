@@ -84,5 +84,21 @@ p {
     margin-right: 40px;
 }
 
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+    .use-section {
+        height: 750px;
+    }
+    .use-box {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .box {
+      width: 600px;
+      height: 80px;
+    }
+  }
 
 `;
