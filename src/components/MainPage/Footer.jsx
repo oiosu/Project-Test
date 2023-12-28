@@ -27,6 +27,10 @@ const Footer = () => {
                             <p className='info-text03'>이용약관</p>
                         </div>
                     </div>
+
+                </div>
+                <div className='footer-text'>
+                    © 2023 - 2024 SuperCoding Project 02
                 </div>
             </FooterSection>
         </>
@@ -46,10 +50,12 @@ const FooterSection = styled.div`
     height: 300px;
     padding-left: 290px;
     padding-right: 290px;
+
 }
 
 .info-01 {
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 .tel-number {
@@ -79,6 +85,7 @@ const FooterSection = styled.div`
 
 .info-02 {
     margin-top: 50px;
+    
 }
 
 .kakao {
@@ -104,10 +111,12 @@ const FooterSection = styled.div`
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .share {
     margin-top: 50px;
+    margin-right: -30px;
 }
 
 .info-03 {
@@ -120,6 +129,15 @@ const FooterSection = styled.div`
 }
 .info-text03 {
     margin-right: 40px;
+}
+
+.footer-text {
+    background-color: #F1F1F1;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
 

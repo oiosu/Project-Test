@@ -130,6 +130,9 @@ img{
     height: 50px;
     border-radius: 30%;
 }
+img:hover{
+    transform: translateY(-10px);
+}
 
 .li-text {
     text-align: center;

@@ -181,5 +181,5 @@ img  {
 	margin-top: -13px;
 	margin-right: -13px;
 }
-}
+
 `;

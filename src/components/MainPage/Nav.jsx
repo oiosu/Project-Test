@@ -7,11 +7,15 @@ const Nav = () => {
   const navigate = useNavigate();
 
   const navigateEmpty = () => {
-    navigate("/empty");
+    if (navigate) {
+      navigate("/empty");
+    }
   };
 
   const navigateMainPage = () => {
-    navigate("/")
+    if (navigate) {
+      navigate("/");
+    }
   };
 
   return (
@@ -49,6 +53,7 @@ const NavComponent = styled.div`
     background-color: #fff;
     margin-bottom: 10px;
   }
+  
 
   .logo {
     background-color: #6EB636;
@@ -76,11 +81,19 @@ const NavComponent = styled.div`
     margin-left: 60px;
     margin-top: 24px;
     font-weight: bold;
+  
+    
   }
 
   .nav-menu2 {
     display: flex;
     justify-content: end;
     padding-left: 360px;
+}
+
+  .nav-menu2 li:hover {
+    cursor: pointer;
+    background-image: linear-gradient(transparent 60%, #6EB636 40%);
+    background-size: 100% 100%;
   }
 `;
