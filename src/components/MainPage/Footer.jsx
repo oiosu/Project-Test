@@ -140,7 +140,7 @@ const FooterSection = styled.div`
     margin-left: 20px;
 }
 
-/* 모바일 반응형 */
+  /* 768 반응형 */
 @media (max-width: 768px) {
     .footer-inner {
       padding: 10px;
@@ -188,7 +188,11 @@ const FooterSection = styled.div`
     }
   }
 
-
-
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .share {
+        display: none;
+    }
+  }
 
 `;

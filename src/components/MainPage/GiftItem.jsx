@@ -167,7 +167,7 @@ p {
     padding-right: 8px;
     margin-right: 40px;
 }
-/* 모바일 반응형 */
+  /* 768 반응형 */
 @media (max-width: 768px) {
     .gift-title {
       float: none; 
@@ -212,5 +212,11 @@ p {
     }
   }
 
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .gift-title , .about-img {
+        display: none;
+    }
+ }
 
 `;

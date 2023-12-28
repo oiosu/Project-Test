@@ -97,7 +97,7 @@ const NavComponent = styled.div`
     background-size: 100% 100%;
   }
 
-  /* 모바일 화면에 대한 스타일링 */
+  /* 768 반응형 */
   @media (max-width: 768px) {
     .nav-menu1 {
       flex-direction: column;
@@ -118,6 +118,20 @@ const NavComponent = styled.div`
     .nav-menu2 {
       padding-left: 0;
       margin-right: 100px;
+    }
+  }
+
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .logo:hover{
+      cursor: pointer;
+      background: #ffe35e;
+    }
+    .menu-text {
+      display: none;
+    }
+    .nav-menu2 {
+      display: none;
     }
   }
 `;

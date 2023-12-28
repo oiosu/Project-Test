@@ -150,7 +150,7 @@ li {
     border: none;
 }
 
-/* 모바일 반응형 */
+/* 모바일 768 */
 @media (max-width: 768px) {
     .new-title {
       flex-direction: column;
@@ -174,6 +174,41 @@ li {
         margin-left: -2px;
         margin-bottom: 10px;
     }
-  }
+  }          
+}
+
+ /* 360 반응형 */
+ @media (max-width: 360px) {
+    .new-title {
+        display: none;
+    }
+
+    .item-img:nth-child(n+3){
+        box-sizing: border-box;
+        width: 50%;
+        margin-right: 50px;
+        margin-top: 20px;
+        float: left; 
+
+    }
+
+    .item-title {
+      font-size: 12px;
+    }
+
+    .item-rate {
+      margin-left: 0;
+      margin-right: 20px;
+    }
+
+    .item-price {
+      margin-right: 0;
+    }
+
+    .item-btn {
+      margin-left: -2px;
+      margin-bottom
+    }
+ }
 
 `;

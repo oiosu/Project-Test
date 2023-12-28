@@ -182,7 +182,7 @@ img  {
 	margin-right: -13px;
 }
 
-/* 모바일 반응형 */
+  /* 768 반응형 */
 @media (max-width: 768px) {
     img {
       display: none;
@@ -201,6 +201,12 @@ img  {
         margin-top: -10px;
     }
   }
-
+  
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .balloon {
+        display: none;
+    }
+ }
 
 `;

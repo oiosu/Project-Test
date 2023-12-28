@@ -86,7 +86,7 @@ const BestRanking = styled.div`
     font-weight: bold;
   }
 
-  /* 모바일 반응형 */
+/* 모바일 768 */
   @media (max-width: 768px) {
 
     .item-background {
@@ -121,7 +121,7 @@ const BestRanking = styled.div`
     }
 
     .ranking-one:first-child {
-    display: block; 
+        display: block; 
   }
 
     p {
@@ -130,6 +130,13 @@ const BestRanking = styled.div`
       margin-top: 10px;
     }
   }
+
+   /* 360 반응형 */
+ @media (max-width: 360px) {
+    .item-background {
+        display: none;
+    }
+ }
 
 
 `;

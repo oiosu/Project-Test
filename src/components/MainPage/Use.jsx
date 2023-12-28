@@ -84,7 +84,7 @@ p {
     margin-right: 40px;
 }
 
-/* 모바일 반응형 */
+  /* 768 반응형 */
 @media (max-width: 768px) {
     .use-section {
         height: 750px;
@@ -100,5 +100,22 @@ p {
       height: 80px;
     }
   }
+    
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .use-section {
+        margin-top: 400px;
+        height: 730px;
+    }
+    .use-title {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    .box {
+        width: 300px;
+        margin-left: 30px;
+    }
+ }
+
 
 `;

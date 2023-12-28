@@ -142,7 +142,7 @@ const CategoryHere = styled.div`
     text-align: center;
   }
 
-  /* 모바일 반응형 */
+  /* 768 반응형 */
   @media (max-width: 768px) {
     .nav {
       margin-top: 20px;
@@ -155,6 +155,12 @@ const CategoryHere = styled.div`
     img {
       width: 40px;
       height: 40px;
+    }
+  }
+    /* 360 반응형 */
+  @media (max-width: 360px) {
+    li:nth-child(n+5) {
+        display: none;
     }
   }
 `;

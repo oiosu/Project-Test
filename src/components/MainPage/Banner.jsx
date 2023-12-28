@@ -90,4 +90,11 @@ img {
       font-size: 16px;
     }
   }
+  
+  /* 360 반응형 */
+  @media (max-width: 360px) {
+    .mySwiper {
+        display: none;
+    }
+  }
 `;
