@@ -1,34 +1,41 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Ranking = () => {
   return (
     <>
       <BestRanking>
-        <div className='item-background'>
+        <div className="item-background">
           <div>
-            <h1 className='best-title'>베스트 랭킹</h1>
-            <h3 className='best-content'>내일의 집 제품 추천</h3>
+            <h1 className="best-title">베스트 랭킹</h1>
+            <h3 className="best-content">내일의 집 제품 추천</h3>
           </div>
-          <div className='ranking-img'>
-            <div className='ranking-one'>
+          <div className="ranking-img">
+            <div className="ranking-one">
               <p>1</p>
-              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50"
+                alt="01"
+              />
             </div>
-            <div className='ranking-one'>
+            <div className="ranking-one">
               <p>2</p>
-              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50"
+                alt="01"
+              />
             </div>
-            <div className='ranking-one'>
+            <div className="ranking-one">
               <p>3</p>
-              <img src='https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50' alt='01' />
+              <img
+                src="https://image.ohou.se/i/bucketplace-v2-development/uploads/productions/166780549677949077.jpg?w=360&h=360&c=c&q=50"
+                alt="01"
+              />
             </div>
           </div>
         </div>
-
       </BestRanking>
     </>
-
   );
 };
 
@@ -37,7 +44,7 @@ export default Ranking;
 const BestRanking = styled.div`
   .item-background {
     margin-top: 80px;
-    background-color: #A9EF72;
+    background-color: #c0d4a1;
     width: 100%;
     height: 530px;
     margin-bottom: 80px;
@@ -57,20 +64,21 @@ const BestRanking = styled.div`
 
   .ranking-img {
     display: flex;
-    flex-flow: row wrap; 
-    justify-content: center; 
-    padding-right: 0px; 
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-right: 0px;
   }
 
   .ranking-one {
     width: 300px;
     height: 300px;
-    margin: 20px; 
+    margin: 20px;
   }
 
   img {
     border-radius: 10px;
-    width: 100%; 
+    width: 100%;
+    margin-right: 80px;
   }
 
   p {
@@ -86,12 +94,10 @@ const BestRanking = styled.div`
     font-weight: bold;
   }
 
-/* 모바일 768 */
+  /* 모바일 768 */
   @media (max-width: 768px) {
-
     .item-background {
       height: 600px;
-
     }
     .best-title {
       margin-left: 20px;
@@ -121,8 +127,8 @@ const BestRanking = styled.div`
     }
 
     .ranking-one:first-child {
-        display: block; 
-  }
+      display: block;
+    }
 
     p {
       display: none;
@@ -131,12 +137,10 @@ const BestRanking = styled.div`
     }
   }
 
-   /* 360 반응형 */
- @media (max-width: 360px) {
+  /* 360 반응형 */
+  @media (max-width: 360px) {
     .item-background {
-        display: none;
+      display: none;
     }
- }
-
-
+  }
 `;
